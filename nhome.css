@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    left:0;
+    right:0;
+    min-height:100vh;
+    min-width:400px;
+    overflow:hidden;
+    
+}
+.navbar{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(5, 4, 4, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    font-size: 18px;
+
+}
+.logo{
+    text-transform:uppercase;
+    color:antiquewhite;
+    text-align:left;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    
+}
+.menus{
+    display:flex;
+    align-items:center;
+   height: 30px;
+   
+}
+i{
+    color:bisque;
+}
+.items{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.ithov{
+    text-decoration: none;
+    color:antiquewhite;
+    margin:0 15px;
+    letter-spacing: 3px;
+}
+
+.ithov:hover{
+    height: 30px;
+    transition-duration: 1s;
+    background-color: aliceblue;
+    color: black;
+
+}
+.items:hover{
+    color:black;
+}
+
+#lori1{
+    background:linear-gradient(rgba(155, 138, 239, 0.6),rgba(236, 145, 129, 0.7)),url('bgimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    padding-top: 80px;
+    height:750px;
+    width:100%;
+}
+#lori2{
+    background:linear-gradient(rgba(155, 138, 239, 0.6),rgba(236, 145, 129, 0.7));
+    padding-top: 80px;
+    height:750px;
+    width:100%;
+    display: flex;
+justify-content: center;
+align-items: center;    
+flex-direction: column;
+margin-top:0px;
+}
+#lori3{
+    background:linear-gradient(rgba(155, 138, 239, 0.6),rgba(236, 145, 129, 0.7));
+    padding-top: 80px;
+    height:750px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepara{
+    padding-left: 30px;
+    font-size: 70px;
+    font-weight:bold;
+}
+.events{
+    height:500px;
+    width:400px;
+    border-style:none;
+    border-radius:15px;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(5, 4, 4, 0.7));
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms{
+    height:550px;
+    width:300px;
+}
+.eves{
+    margin-top:40px;
+    height:40px;
+    color:antiquewhite;
+    font-size:25px;
+}
+.boxy{
+    height:25px;
+    width:300px;
+}
+.addbut{
+   margin-top:60px; 
+}
+.addbut{
+    width:300px;
+    height:40px;
+    background-color: transparent;
+    color:antiquewhite;
+    font-size:20px;
+}
+.addbut:hover{
+    color:black;
+    background-color: bisque;
+    transition-duration: 0.3s;
+}
+.addform{
+    height:15px;
+    width:300px;
+    
+}

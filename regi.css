@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    background:linear-gradient(rgba(10, 58, 192, 0.6),rgba(221, 15, 204, 0.7));
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    height:100vh;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+.tab{
+    background:linear-gradient(rgba(10, 25, 36, 0.6),rgba(27, 15, 13, 0.7));
+    color:white;
+    height:600px;
+    width:400px;
+    border-style: none;
+    border-radius: 15px;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: solid 1px white;
+}
+.formi{
+    display: flex;
+    padding-left:100px ;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
+}
+.forma{
+    
+    padding-top:50px;
+    
+    height:400px;
+    
+}
+.button{
+    text-align: center;
+}
+.buttoni{
+    height:45px;
+    width:250px;
+    background-color:transparent;
+    color:white;
+    border-radius: 15px;
+    font-family:Tahoma;
+    font-size:20px;
+    
+}
+.texts{
+    font-size: 20px;
+    font-family:  'Lucida Sans Regular';
+}
+.boxes{
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style:solid;
+    border-color: white;
+    height:30px;
+    width:250px;
+}
+.ema{
+    height:45px;
+    padding-bottom: 35px;
+}
+.creusr{
+    height:45px;
+    padding-bottom: 35px;
+}
+.crepa{
+    height:45px;
+    padding-bottom: 35px;
+}
+.conpa{
+    height:45px;
+    padding-bottom: 35px;
+}
+
+.regbut{
+    height:45px;
+    width:90px;
+    text-decoration: none;
+    color:white;
+}
+.regbut:hover{
+    height:45px;
+    width:250px;
+    background-color: antiquewhite;
+    color:black;
+    transition-duration: 0.3s;
+}
+.buttoni:hover{
+    height:45px;
+    width:250px;
+    background-color: antiquewhite;
+    color:black;
+    transition-duration: 0.3s;  
+}
+.redtolog{
+    font-size:15px;
+    color:aliceblue;
+    width:250px;
+}
